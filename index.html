@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="/">
+                        <img class="img-fluid" src="./images/logo_akarat.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-lg-2 mb-md-4 mb-sm-4 mb-4 cu_navbar">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Choose 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Recently Added</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Contact Us</a>
+                            </li>
+                            <div class="login_wrapper">
+                                <div class="eng">
+                                    <span>ENG</span>
+                                    <img class="img-fluid" src="./images/down-arrow.png" alt="Down Arrow">
+                                </div>
+                                <div class="login">
+                                    <img class="img-fluid" src="./images/password.png" alt="Login">
+                                    <span>Login / Register</span>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="form_container">
+                <form action="" class="header_form" id="header_form">
+                    <div class="rentbuy">
+                        <span class="buy_box">Buy</span>
+                        <span class="rent_box">Rent</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="form-group">
+                                <input name="enterKeyword" type="text" id="enterKeyword" class="form-control required"
+                                    placeholder="Enter Keyword.." data-d-group="2" value="" aria-required="true">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="form-group">
+                                <input name="propertyType" type="text" id="propertyType" class="form-control required"
+                                    placeholder="Property Type" data-d-group="2" value="" aria-required="true">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-2">
+                            <div class="form-group">
+                                <input name="location" type="text" id="location" maxlength="18"
+                                    class="form-control required" placeholder="Location" data-d-group="2" value=""
+                                    aria-required="true">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-2">
+                            <div class="form-group">
+                                <input name="price" type="tel" id="price" maxlength="18"
+                                    class="form-control NumericFormat required" placeholder="Price" data-d-group="2"
+                                    value="" aria-required="true">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-2">
+                            <button type="submit" name="submitbutton" id="submitbutton"
+                                class="searchButton">Search</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <img class="img-fluid path_btm" src="./images/bottom-path.png" alt="">
+    </header>
+
+    <div class="container">
+        <section class="who_v_r">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <figure>
+                        <img class="img-fluid" src="./images/hand_img.png" alt="Banner Image" width="550" height="400">
+                    </figure>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="content">
+                        <span class="txt">WHO WE ARE</span>
+                        <h6>We develop quality infrastructure and real estate projects since 1999</h6>
+                        <span class="line"></span>
+                        <div class="read_more">
+                            <span>Read more</span>
+                            <img src="./images/rm-arrow.png" alt="">
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                                <div class="bolb_sec">
+                                    <span class="bolb_img">89+</span>
+                                    <span class="bolb_txt">Completed Project</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                                <div class="bolb_sec">
+                                    <span class="bolb_img">20</span>
+                                    <span class="bolb_txt">Winning Project</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                                <div class="bolb_sec">
+                                    <span class="bolb_img">50</span>
+                                    <span class="bolb_txt">On going Project</span>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                                <div class="bolb_sec">
+                                    <span class="bolb_img">10</span>
+                                    <span class="bolb_txt">Up coming Project</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cu_slider">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-lg-0 mb-md-5 mb-sm-5 mb-5">
+                    <div class="content">
+                        <span class="txt">WHAT WE BUILD</span>
+                        <h6>Featured Projects</h6>
+                        <span class="line"></span>
+                        <div class="read_more">
+                            <span>View All Project</span>
+                            <img src="./images/rm-arrow.png" alt="">
+                        </div>
+                    </div>
+                    <div class="slider_txt">
+                        <div class="lorem">
+                            <span>Lorem Ipsum</span>
+                            <span>Dummy Text, 123</span>
+                        </div>
+                        <div class="slider_box"> <strong>Area :</strong> 450m2</div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 mt-lg-0 mt-md-5 mt-sm-5 mt-5">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="cu_swiper_slide">
+                                    <img class="img-fluid" src="./images/slider-img.png" alt="Slider Image">
+                                    <div class="swiper_btn">
+                                        <button type="submit" name="submitbutton" id="swiper_btn"
+                                            class="searchButton">60,000 lac</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cu_swiper_slide">
+                                    <img class="img-fluid" src="./images/slider-img.png" alt="Slider Image">
+                                    <div class="swiper_btn">
+                                        <button type="submit" name="submitbutton" id="swiper_btn"
+                                            class="searchButton">60,000 lac</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cu_swiper_slide">
+                                    <img class="img-fluid" src="./images/slider-img.png" alt="Slider Image">
+                                    <div class="swiper_btn">
+                                        <button type="submit" name="submitbutton" id="swiper_btn"
+                                            class="searchButton">60,000 lac</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testmonial">
+            <div class="content">
+                <span class="txt">OUR BIGGEST AWARD</span>
+                <h6>Testimonials</h6>
+                <span class="line"></span>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <figure>
+                        <img class="img-fluid" src="./images/testmonial-img1.png" alt="Testmonial Image" width="320"
+                            height="310" />
+                        <figcaption>
+                            <span class="name d-block">John Doe</span>
+                            <span class="description">“The Group was very helpful and flexible towards my needs and
+                                schedule. They have coordinated and cooperated with me."</span>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12 my-lg-0 my-md-0 my-sm-5 my-5">
+                    <figure>
+                        <img class="img-fluid" src="./images/testmonial-img3.png" alt="Testmonial Image" width="320"
+                            height="310" />
+                        <figcaption>
+                            <span class="name d-block">John Doe</span>
+                            <span class="description">“The Group was very helpful and flexible towards my needs and
+                                schedule. They have coordinated and cooperated with me."</span>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <figure>
+                        <img class="img-fluid" src="./images/testmonial-img2.png" alt="Testmonial Image" width="320"
+                            height="310" />
+                        <figcaption>
+                            <span class="name d-block">John Doe</span>
+                            <span class="description">“The Group was very helpful and flexible towards my needs and
+                                schedule. They have coordinated and cooperated with me."</span>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="properties">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="content">
+                        <span class="txt">PROPERTY TYPES</span>
+                        <h6>Properties</h6>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="tab_btn mb-lg-2 mb-md-4 mb-sm-4 mb-4">
+                        <button type="button" class="btn btn-lg cu_tab active"><span>ALL</span></button>
+                        <button type="button" class="btn btn-lg cu_tab"><span>VILLA</span></button>
+                        <button type="button" class="btn btn-lg cu_tab"><span>OFFICES</span></button>
+                        <button type="button" class="btn btn-lg cu_tab"><span>APARTMENT</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <figure>
+                                <img class="img-fluid" src="./images/property-img1.png" alt="Property Image">
+                            </figure>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6 gy-2">
+                            <figure>
+                                <img class="img-fluid" src="./images/property-img2.png" alt="Property Image">
+                            </figure>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6 gy-2">
+                            <figure>
+                                <img class="img-fluid" src="./images/property-img3.png" alt="Property Image">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <figure>
+                                <img class="img-fluid" src="./images/property-img4.png" alt="Property Image">
+                            </figure>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6 gy-2">
+                            <figure>
+                                <img class="img-fluid" src="./images/property-img5.png" alt="Property Image">
+                            </figure>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6 gy-2">
+                            <figure>
+                                <img class="img-fluid" src="./images/property-img6.png" alt="Property Image">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="our_video">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-8 col-sm-12 col-12 mx-auto">
+                    <div class="content">
+                        <span class="txt">Best Is Here</span>
+                        <h6>Our Videos</h6>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-8 col-sm-12 col-12 mx-auto">
+                    <div class="video_img">
+                        <img class="img-fluid" src="./images/video-img1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-8 col-sm-12 col-12 mx-auto">
+                    <div class="video_img">
+                        <img class="img-fluid" src="./images/video-img2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-8 col-sm-12 col-12 mx-auto">
+                    <div class="video_img">
+                        <img class="img-fluid" src="./images/video-img3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="inquiry">
+        <div class="container">
+            <form action="" class="inquiry_form" id="inquiry_form">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                        <div class="quick_inquiry">
+                            <h5>QUICK INQUIRY</h5>
+                            <h1 class="mb-lg-2 mb-md-5 mb-sm-5 mb-5">Want moreinformation?</h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                <div class="form-group mb-4">
+                                    <input name="name" type="text" id="name" class="form-control required"
+                                        placeholder="Your Name" data-d-group="2" value="" aria-required="true">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                <div class="form-group mb-4">
+                                    <input name="phone" type="tel" maxlength="10" id="phone"
+                                        class="form-control required" placeholder="Phone Number" data-d-group="2"
+                                        value="" aria-required="true">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                <div class="form-group mb-4">
+                                    <input name="emailID" type="text" id="emailID" class="form-control required"
+                                        placeholder="Email ID" data-d-group="2" value="" aria-required="true">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                <div class="form-group mb-4">
+                                    <select name="project" id="project" class="form-control required"
+                                        aria-required="true">
+                                        <option value="">Please Select</option>
+                                        <option value="1">Project 1</option>
+                                        <option value="2">Project 2</option>
+                                        <option value="2">Project 3</option>
+                                        <option value="2">Project 4</option>
+                                        <option value="2">Project 5</option>
+                                        <option value="2">Project 6</option>
+                                        <option value="2">Project 7</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-12 col-sm-12 col-12 mt-lg-0 mt-md-3 mt-sm-3 mt-3">
+                        <button type="submit" name="submitbutton" id="call_Now" class="searchButton">
+                            <img class="img-fluid" src="./images/call-img.png" alt="Calling Image">
+                            <span class="d-block">Get a <br class="d-lg-block d-md-none d-sm-none d-none"> Call
+                                Back</span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <div class="f_nav">
+                        <ul>
+                            <li>
+                                <a href="/">Home</a>
+                            </li>
+                            <li>
+                                <a href="/">About Us</a>
+                            </li>
+                            <li>
+                                <a href="/">Choose 2</a>
+                            </li>
+                            <li>
+                                <a href="/">Recently added</a>
+                            </li>
+                            <li>
+                                <a href="/">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <div class="f_address">
+                        <h6>GET IN TOUCH</h6>
+                        <p class="my-5 f_phone">PHONE <br>
+                            <a href="tel:+(12) 9871234344" target="_blank">+(12) 9871234344</a>
+                        </p>
+                        <p class="mb-0 add">
+                            <a href="/" target="_blank">56, clity ford Street, <br> Lorem G1 HUL1, New
+                                City, Ipsum</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <div class="fo_email">
+                        <p>Email</p>
+                        <p class="mb-3 email">
+                            <a href="mailto:anoopandey15@gmail.com" target="_blank">anoopandey15@gmail.com</a>
+                        </p>
+                        <div class="social_icon">
+                            <a href="/">
+                                <img class="img-fluid" src="./images/social-icons.png" alt="Social Icons">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <div class="subscribe">
+                        <h6>SUBSCRIBE TO NEWSLETTER</h6>
+                        <form action="" class="subscribe_form" id="subscribe_form">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                            <div class="form-group mb-4">
+                                                <input name="enterEmail" type="text" id="enterEmail"
+                                                    class="form-control required" placeholder="Enter your email address"
+                                                    data-d-group="2" value="" aria-required="true">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 mt-4">
+                                            <button type="submit" name="submitbutton" id="subscribebtn"
+                                                class="searchButton">
+                                                <span class="d-block">Subscribe</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <hr class="f_btm_line">
+            <p class="text-center text-light pt-4 copyright">© 2020 – GMTCC. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/autoNumeric.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
